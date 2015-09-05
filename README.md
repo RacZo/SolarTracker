@@ -3,6 +3,9 @@
 Shows how to track the position of the sun know when the sun rises or sets to turn lights on or off and to change colors and color temperature.
 
 
+![](solar-tracker.png)
+
+
 License
 -------
 Copyright (c) 2015 Oscar Salguero www.oscarsalguero.com
