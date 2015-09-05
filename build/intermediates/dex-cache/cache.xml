@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0-872d601014e8293e6a2f9afddd106c9285806a89.jar" />
+    </item>
+    <item
+        jar="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
+        <dex dex="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/pre-dexed/debug/classes-9d13e3aeee10e8cceac4a085ac2969aed23fd590.jar" />
+    </item>
+    <item
+        jar="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="adebe28e0c0c05d34a3bfd76f3275bf4d8ff87b6">
+        <dex dex="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/pre-dexed/debug/classes-d8155f6ebf7d3d31a9e07d5cd3d6b969156fe0d4.jar" />
+    </item>
+    <item
+        jar="/Users/RacZo/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.18/38da306aafee11459cd935a01d2c92a98dc670a4/library-1.0.18.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="38da306aafee11459cd935a01d2c92a98dc670a4">
+        <dex dex="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/pre-dexed/debug/library-1.0.18-f08fcaba51ad762fbdbdb8309d1cf646a9bbd40f.jar" />
+    </item>
+    <item
+        jar="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="130b32ed466fa0f63efd4c7d6250ccd2ed506790">
+        <dex dex="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/pre-dexed/debug/classes-d0e0d84fecd07d5af1bc21e442cc929f8cbc911b.jar" />
+    </item>
+    <item
+        jar="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
+        <dex dex="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/pre-dexed/debug/classes-76f8563cb6351ed600be6022b5a191763f6de566.jar" />
+    </item>
+    <item
+        jar="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
+        <dex dex="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/pre-dexed/debug/classes-778e791dec55fc4399fa5cefc12f046350e9cf38.jar" />
+    </item>
+    <item
+        jar="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
+        <dex dex="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/pre-dexed/debug/classes-e365e8dcf86bfea933dfae8b8fa4bd1046bed7a1.jar" />
+    </item>
+    <item
+        jar="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/pre-dexed/debug/classes-ace251e7670140b70182d54a10d594bed4fb9d9a.jar" />
+    </item>
+    <item
+        jar="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
+        <dex dex="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/pre-dexed/debug/classes-707906483d47d681bfd300ea330bab5dcd2f2162.jar" />
+    </item>
+    <item
+        jar="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
+        <dex dex="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/pre-dexed/debug/classes-01e0cdf08f5b6fdb1342f6bada6ce83a672e272a.jar" />
+    </item>
+    <item
+        jar="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
+        <dex dex="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/pre-dexed/debug/classes-749d52b0094b8c3c6add102e7f8a307f44a952f1.jar" />
+    </item>
+    <item
+        jar="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
+        <dex dex="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/pre-dexed/debug/classes-becbf1b21d4525e0fdcf2027c254e77156263ca4.jar" />
+    </item>
+    <item
+        jar="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/pre-dexed/debug/classes-6f9a471ec920435f6059f6ed79869f7cad89a928.jar" />
+    </item>
+    <item
+        jar="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="77a9dcb5f8b1dba36aacaa9c150eb0942dbea158">
+        <dex dex="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/pre-dexed/debug/classes-94605ff989d0adf58de87f24b44de294d058f98a.jar" />
+    </item>
+    <item
+        jar="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
+        <dex dex="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/pre-dexed/debug/classes-523e80f5f3ca4dcd04c97f48bcacabb6d41a3c6f.jar" />
+    </item>
+    <item
+        jar="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-737c5799d7c38946f2c7931b1a47aa91812c178d.jar" />
+    </item>
+    <item
+        jar="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
+        <dex dex="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/pre-dexed/debug/classes-161fb035eb77cdd66a7299a8ddedea3ab127fdcd.jar" />
+    </item>
+    <item
+        jar="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
+        <dex dex="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/pre-dexed/debug/classes-80239db31c4d4df6329d50848f19e1616c5df901.jar" />
+    </item>
+    <item
+        jar="/Users/RacZo/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-61cc90aeda1427a2985b57844012d090fac3dce8.jar" />
+    </item>
+    <item
+        jar="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="2e24e5f1b11170163028277de63f709e42525db4">
+        <dex dex="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/pre-dexed/debug/classes-7ba4b86ba00651f554da495833b140fe539ed6a2.jar" />
+    </item>
+    <item
+        jar="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/pre-dexed/debug/classes-7b02414d5c8d601c5ca689bf4de83c04817ceef6.jar" />
+    </item>
+    <item
+        jar="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="166e458ee3b5fb5fcff0f936df3f3a788e6c54f3">
+        <dex dex="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/pre-dexed/debug/classes-fdd2dcd0f14f659733b7d2221f2a1921544f5e18.jar" />
+    </item>
+    <item
+        jar="/Users/RacZo/Documents/Dev/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.0-0439dfce55b30b66f371611cbecb0a369fdbf317.jar" />
+    </item>
+    <item
+        jar="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
+        <dex dex="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/pre-dexed/debug/classes-f2074e3edf2cc43fcb01d3195901f70d2aea8f20.jar" />
+    </item>
+    <item
+        jar="/Users/RacZo/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/pre-dexed/debug/gson-2.3-6640d35f22004eccc47f7e97f1cf15f5ed1625f4.jar" />
+    </item>
+    <item
+        jar="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
+        <dex dex="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/pre-dexed/debug/classes-b2160e8265dd779ce730d14901bed6732ea3bf6f.jar" />
+    </item>
+    <item
+        jar="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
+        <dex dex="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/pre-dexed/debug/classes-8acc94fb40209e6cec9ddbb47820938e00f2f866.jar" />
+    </item>
+    <item
+        jar="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
+        <dex dex="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/pre-dexed/debug/classes-f563a89304c8c94b0c31f308a2bfa50afece7480.jar" />
+    </item>
+    <item
+        jar="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="/Users/RacZo/AndroidStudioProjects/SolarTracker/app/build/intermediates/pre-dexed/debug/classes-6f24636050d2b4fa554abf02ee228a27c77d7857.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,378 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/text_view_label_height"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/solar_information"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_view_label_text_size"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/text_view_label_height"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/sunrise"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_view_label_text_size" />
+
+                <TextView
+                    android:id="@+id/text_view_sunrise"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/text_view_label_height"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/text_view_label_text_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/text_view_label_height"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/sunset"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_view_label_text_size" />
+
+                <TextView
+                    android:id="@+id/text_view_sunset"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/text_view_label_height"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/text_view_label_text_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/text_view_label_height"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/day_length"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_view_label_text_size" />
+
+                <TextView
+                    android:id="@+id/text_view_day_length"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/text_view_label_height"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/text_view_label_text_size" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/text_view_label_height"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/civil"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_view_label_text_size"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/text_view_label_height"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/twilight_begin"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_view_label_text_size" />
+
+                <TextView
+                    android:id="@+id/text_view_civil_twilight_begin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/text_view_label_height"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/text_view_label_text_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/text_view_label_height"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/twilight_end"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_view_label_text_size" />
+
+                <TextView
+                    android:id="@+id/text_view_civil_twilight_end"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/text_view_label_height"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/text_view_label_text_size" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/text_view_label_height"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/nautical"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_view_label_text_size"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/text_view_label_height"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/twilight_begin"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_view_label_text_size" />
+
+                <TextView
+                    android:id="@+id/text_view_nautical_twilight_begin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/text_view_label_height"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/text_view_label_text_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/text_view_label_height"
+                    android:layout_weight="1"
+                    android:text="@string/twilight_end"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_view_label_text_size" />
+
+                <TextView
+                    android:id="@+id/text_view_nautical_twilight_end"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/text_view_label_height"
+                    android:layout_weight="1"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/text_view_label_text_size" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/text_view_label_height"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/astronomical"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_view_label_text_size"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/text_view_label_height"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/twilight_begin"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_view_label_text_size" />
+
+                <TextView
+                    android:id="@+id/text_view_astronomical_twilight_begin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/text_view_label_height"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/text_view_label_text_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/text_view_label_height"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/twilight_end"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_view_label_text_size" />
+
+                <TextView
+                    android:id="@+id/text_view_astronomical_twilight_end"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/text_view_label_height"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/text_view_label_text_size" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/text_view_label_height"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/other"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_view_label_text_size"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/text_view_label_height"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/lat_lon"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_view_label_text_size" />
+
+                <TextView
+                    android:id="@+id/text_view_lat_lon"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/text_view_label_height"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/text_view_label_text_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/text_view_label_height"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/color_temp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_view_label_text_size" />
+
+                <TextView
+                    android:id="@+id/text_view_color_temp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/text_view_label_height"
+                    android:layout_weight="1"
+                    android:text="@string/daylight_overcast_color_temp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/text_view_label_text_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/text_view_label_height"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/label_hex"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_view_label_text_size" />
+
+                <TextView
+                    android:id="@+id/text_view_color"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/text_view_label_height"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/gray"
+                    android:text="@string/daylight_overcast_hex_string"
+                    android:background="@color/daylight_overcast"
+                    android:textSize="@dimen/text_view_label_text_size" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
