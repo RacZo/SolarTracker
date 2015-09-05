@@ -55,7 +55,8 @@ import java.text.DateFormat;
 import java.util.Date;
 
 /**
- * Shows how to track the position of the sun to change colors and color temperature.
+ * Shows how to track the position of the sun know when the sun rises or sets to turn lights on or off and
+ * to change colors and color temperature.
  * Created by RacZo on 9/4/15.
  */
 public class MainActivity extends AppCompatActivity implements GoogleApiClient.ConnectionCallbacks,
